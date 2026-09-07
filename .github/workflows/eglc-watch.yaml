@@ -21,12 +21,12 @@ jobs:
             LABEL=$2
             STATEFILE="data/last_${TYPE}.txt"
 
-            CURRENT=$(curl -s --max-time 15 \
+            CURRENT=$(curl -s --max-time 15 --retry 3 --retry-delay 3 --retry-all-errors \
               -H "Accept: text/plain" \
               -H "Cache-Control: no-cache" \
               -H "Pragma: no-cache" \
               -H "User-Agent: eglc-weather-watch (personal project)" \
-              "https://aviationweather.gov/api/data/${TYPE}?ids=EGLC&format=raw&hoursBeforeNow=1&mostRecent=true")
+              "https://aviationweather.gov/api/data/${TYPE}?ids=EGLC&format=raw&hoursBeforeNow=1&mostRecent=true" || echo "")
 
             echo "[$TYPE] Fetched at $(date -u): $CURRENT"
 
