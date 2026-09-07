@@ -26,7 +26,7 @@ jobs:
               -H "Cache-Control: no-cache" \
               -H "Pragma: no-cache" \
               -H "User-Agent: eglc-weather-watch (personal project)" \
-              "https://aviationweather.gov/api/data/${TYPE}?ids=EGLC&format=raw&hoursBeforeNow=1&mostRecent=true" || echo "")
+              "https://aviationweather.gov/api/data/${TYPE}?ids=EGLC&format=raw" || echo "")
 
             echo "[$TYPE] Fetched at $(date -u): $CURRENT"
 
