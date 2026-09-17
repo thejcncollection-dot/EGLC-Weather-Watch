@@ -1,2 +1,9 @@
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>Microsoft-Azure-Application-Gateway/v2</center>
+</body>
+</html>
 TAF EGLC 171103Z 1712/1721 28013KT 9999 BKN020 
   BECMG 1712/1714 CAVOK
