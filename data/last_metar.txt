@@ -1,15 +1,1 @@
-<html>
-<head><title>502 Bad Gateway</title></head>
-<body>
-<center><h1>502 Bad Gateway</h1></center>
-<hr><center>Microsoft-Azure-Application-Gateway/v2</center>
-</body>
-</html>
-<html>
-<head><title>502 Bad Gateway</title></head>
-<body>
-<center><h1>502 Bad Gateway</h1></center>
-<hr><center>Microsoft-Azure-Application-Gateway/v2</center>
-</body>
-</html>
 METAR EGLC 161550Z AUTO 32009KT 300V360 9999 //////TCU 15/05 Q1024
