@@ -1,8 +1,1 @@
-<html>
-<head><title>502 Bad Gateway</title></head>
-<body>
-<center><h1>502 Bad Gateway</h1></center>
-<hr><center>Microsoft-Azure-Application-Gateway/v2</center>
-</body>
-</html>
-METAR EGLC 031450Z AUTO 06007KT 020V090 9999 BKN048 12/07 Q1031
+METAR EGLC 031520Z AUTO 06007KT 020V090 9999 BKN040 BKN046 12/07 Q1031
